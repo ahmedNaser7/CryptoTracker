@@ -1,4 +1,4 @@
-package com.example.cryptotracker.crypto.data.networking
+package com.example.cryptotracker.crypto.data.networking.dto
 
 import com.example.cryptotracker.crypto.domain.CoinPrice
 import kotlinx.serialization.Serializable

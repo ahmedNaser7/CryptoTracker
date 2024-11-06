@@ -1,13 +1,13 @@
-package com.example.cryptotracker.crypto.data
+package com.example.cryptotracker.crypto.data.networking
 
 import com.example.cryptotracker.core.data.network.constructUrl
 import com.example.cryptotracker.core.data.network.safeCall
 import com.example.cryptotracker.core.domain.util.NetworkError
 import com.example.cryptotracker.core.domain.util.Result
 import com.example.cryptotracker.core.domain.util.map
-import com.example.cryptotracker.crypto.data.networking.CoinHistoryDto
-import com.example.cryptotracker.crypto.data.networking.CoinsResponseDto
-import com.example.cryptotracker.crypto.data.networking.toCoinPrice
+import com.example.cryptotracker.crypto.data.networking.dto.CoinHistoryDto
+import com.example.cryptotracker.crypto.data.networking.dto.CoinsResponseDto
+import com.example.cryptotracker.crypto.data.networking.dto.toCoinPrice
 import com.example.cryptotracker.crypto.domain.Coin
 import com.example.cryptotracker.crypto.domain.CoinDataSource
 import com.example.cryptotracker.crypto.domain.CoinPrice
